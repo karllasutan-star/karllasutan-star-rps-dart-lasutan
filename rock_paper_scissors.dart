@@ -44,7 +44,7 @@ String? Whowon(String move1, String move2, String player1, String player2) {
   return player2;
 }
 
-/// Asks if the players want to play agai
+/// Asks if the players want to play again
 bool playmore() {
   stdout.write('Want to play again? (y/n): ');
   String? userin = stdin.readLineSync();
